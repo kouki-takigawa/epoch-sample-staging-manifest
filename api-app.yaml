@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: api-app
-        image: :
+        image:
         ports:
         - name: http
           containerPort: 8000
